@@ -296,3 +296,12 @@ footer {
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
 } 
+
+.buttons { 
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.buttons button { 
+  width: 100%;
+}
