@@ -3,14 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900);
 @import url(https://fonts.googleapis.com/css?family=Maven+Pro);
 
-body {
-  padding:50px;
-  font-family: "Maven Pro", "Helvetica", "Orbitron", 'Maven Pro';
-  letter-spacing: 2.2px;
-  line-height: 1.5;
-  color:#777;
-  font-weight:400;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
