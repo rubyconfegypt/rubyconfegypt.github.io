@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Ruby Conference Egypt</title>
     <link rel="icon" type="image/png" href="img/ruby.png" />
-    <script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.yellow-red.min.css" />
 
+    <!-- Compiled and minified CSS 
+    -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.yellow-red.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
@@ -21,36 +22,92 @@
 	<img class="" src="img/ruby.png"  alt="utter">
 	<p></p>
 
-
       </header>
       <section>
-	<h3>Welcome to Ruby Egypt</h3>
+	<h3>RubyConf Egypt 2017</h3>
 	<hr/>
-
+	<h6> "Ruby is simple in appearance, but is very complex inside, just like our human body." - Yukihiro "Matz" Matsumoto
+	</h6>
+	Ruby is a language of careful balance of beautiful and practical. It has blended parts of (Perl, Smalltalk, Eiffel, Ada, and Lisp)
+	with the aim for “trying to make Ruby natural, not simple” in a way that mirrors life.
 
       </section>
       <footer>
-	<style>
-	</style>
+
+	<!-- Modal Trigger 
+	<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+	<button data-target="modal1" class="btn modal-trigger">sModal</button>
+	-->
+
+
 
 	<div class=buttons>
-	  <button id="" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+	  <button id="" data-target="speaker_modal" class="modal-trigger mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
 	    Apply as a Speaker 
 	  </button>
+
+	  <!-- Modal Structure -->
+	  <div id="speaker_modal" class="modal">
+	    <div class="modal-content">
+	      <h4>Apply as a Speaker</h4>
+	      <p>A bunch of speaker text</p>
+	    </div>
+	    <div class="modal-footer">
+	      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Apply</a>
+	    </div>
+	  </div>
+
 	  <hr>
-	  <button id="" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+	  <button id="" data-target="sponsor_modal" class="modal-trigger mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
 	    Apply as a Sponsor 
 	  </button>
+
+	  <!-- Modal Structure -->
+	  <div id="sponsor_modal" class="modal">
+	    <div class="modal-content">
+	      <h4>Apply as a Sponsor</h4>
+	      <p>A bunch of sponsor text</p>
+	    </div>
+	    <div class="modal-footer">
+	      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Apply</a>
+	    </div>
+	  </div>
+
 	  <br>
 	  <hr>
-	  <button id="" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+	  <button id="" data-target="organizer_modal" class="modal-trigger mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
 	    Volunteer as an Organizer 
 	  </button>
+
+	  <!-- Modal Structure -->
+	  <div id="organizer_modal" class="modal">
+	    <div class="modal-content">
+	      <h4>Volunteer as an Organizer</h4>
+	      <p>A bunch of organizer text</p>
+	    </div>
+	    <div class="modal-footer">
+	      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Volunteer</a>
+	    </div>
+	  </div>
+
 	  <br>
 	  <hr>
-	  <button id="" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+	  <button id="" data-target="tickets_modal" class="modal-trigger mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
 	    Buy Tickets 
 	  </button>
+
+	  <!-- Modal Structure -->
+	  <div id="tickets_modal" class="modal">
+	    <div class="modal-content">
+	      <h4>Buy Tickets</h4>
+	      <p>A bunch of tickets text</p>
+	    </div>
+	    <div class="modal-footer">
+	      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Buy</a>
+	    </div>
+	  </div>
+
 	  <br>
 	  <hr>
 	  <br>
@@ -59,7 +116,16 @@
       </footer>
     </div>
 
+
+    <!-- Compiled and minified JavaScript 
+    <script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+
     <script src="javascripts/scale.fix.js"></script>
+    <script src="javascripts/app.js"></script>
 
   </body>
 </html>
